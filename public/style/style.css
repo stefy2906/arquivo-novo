@@ -1,0 +1,38 @@
+.title .title {
+    position: relative;
+    text-align: center;
+    color:#222; 
+    font-size:35px; 
+    font-weight:bold;
+    text-transform: uppercase;
+    letter-spacing:15px; 
+    color:#ffa4b5;
+  }
+  .title .title .subtitle {
+    line-height:2em; 
+    padding-bottom:15px;
+    text-transform: none;
+    font-size:18px;
+    font-weight: normal;
+    font-family: 'open_sanslight';
+    color:#f4f4; 
+    letter-spacing:10px; 
+    letter-spacing:none;
+  }
+.form{
+    background-color: white;
+    position: relative;
+    text-align: center;
+    color:#222; 
+    font-size:20px; 
+    color:#ffa4b5;
+}
+body {
+    background-image: url('{https://i0.wp.com/omeudiadia.com.br/wp-content/uploads/2022/05/papel-de-parede-para-leptoppc-e-notebook.png?fit=1920%2C1080&ssl=1}');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.form .botao {
+ background-color: antiquewhite;
+ color: black;
+}

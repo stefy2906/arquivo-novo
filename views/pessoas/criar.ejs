@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Formulário</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/style/style.css'>
+
+</head>
+<body>
+    <div class="title">
+        <h2 class="title">Formulário
+          <p class="subtitle">Adcione seus dados:</p>
+        </h2>
+      </div><br/>
+    <div class="form">
+    <form method="post" action="/pessoas/criar">
+        <label id="nome" for="text">Nome</label>
+        <input type="text" name="nome" placeholder="Digite seu nome"><br/>
+        <label id="sobrenome" for="text">Sobrenome</label>
+        <input type="text" name="sobrenome" placeholder="Digite seu sobrenome"><br/>
+        <label id="idade" for="text">Idade</label>
+        <input type="text" name="idade" placeholder="Digite seu idade"><br/>
+
+            <input class="botao" type="submit" name="enviar" placeholder="Enviar:" onclick="msg()">
+
+    </form>
+    <script>
+        function msg(){
+            alert("Voce enviou!")
+        }
+    </script>
+    </div>
+</body>
+</html>
