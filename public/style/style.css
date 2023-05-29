@@ -26,20 +26,17 @@
     color:#222; 
     font-size:20px; 
     color:#ffa4b5;
+    justifyContent:"center";
 }
 body {
     background-image: url('{https://i0.wp.com/omeudiadia.com.br/wp-content/uploads/2022/05/papel-de-parede-para-leptoppc-e-notebook.png?fit=1920%2C1080&ssl=1}');
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-.form .botao {
+.botao {
  background-color: #FF1493;
  color: white;
 }
-div{
-  justifyContent:"center";
-  textAlign: "center";
- }
  .botao{
   color: "white";
   backgoundColor: "#FF1493";
