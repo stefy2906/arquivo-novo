@@ -1,7 +1,7 @@
 .title .title {
     position: relative;
     text-align: center;
-    color:#222; 
+    color:#000000; 
     font-size:35px; 
     font-weight:bold;
     text-transform: uppercase;
@@ -40,17 +40,6 @@ div{
   justifyContent:"center";
   textAlign: "center";
  }
- h1{
-   color: "#FF1493";
-   textAlign: "center";
-   fontStyle: "Italic";
- }
- p{
-   color: "#FF69B4";
-   fontSize: "20";
-   textAlign: "center";
-   fontStyle: "Italic";
- }
  .botao{
   color: "white";
   backgoundColor: "#FF1493";
@@ -59,7 +48,7 @@ div{
   borderRadius: "29px";
  }
  input{
-    color: "FF69B4";
+    color: "#FF69B4";
     justifyContent:"center";
     textAlign: "center";
     borderColor: "#FF1493";
@@ -68,8 +57,8 @@ div{
  
 a {
 color: "white";
-backgoundColor: "##FF1493";
+backgoundColor: "#FF1493";
 justifyContent:"center";
 textAlign: "center";
-borderRadius: "29px"
+borderRadius: "29px";
 }
