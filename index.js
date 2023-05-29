@@ -1,6 +1,6 @@
 const express = require('express');
 const path = require('path');
-const { usuario, pessoa } = require('./models');
+const { pessoa } = require('./models');
 
 
 const app = express();
@@ -28,10 +28,20 @@ app.post('/pessoas/criar', async function(req, res){
         res.redirect('/pessoas')
     } catch (err) {
         console.error(err);
-        res.status(500).json({ message: 'Ocorreu um erro ao criar o usuário.' });
+        res.status(500).json({ message: 'Ocorreu um erro ao criar pessoa.' });
     }
 })
 
+// Rota para excluir uma pessoa
+app.get('/pessoas/delete', async function (req, res) {
+  try {
+    await pessoa.destroy({ where: { id: req.query.id } });
+    res.redirect('/pessoas');
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ message: 'Ocorreu um erro ao excluir a pessoa.' });
+  }
+});
 
 app.listen(3000, function() {
   console.log('App de Exemplo escutando na porta 3000!')

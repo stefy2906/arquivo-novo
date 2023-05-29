@@ -10,10 +10,11 @@
 </head>
 <body>
     <div class="title">
-        <h2 class="title">Formulário
+        <h1 class="title">Formulário
           <p class="subtitle">Adcione seus dados:</p>
-        </h2>
-      </div><br/>
+        </h1>
+      </div>
+    <br/>
     <div class="form">
     <form method="post" action="/pessoas/criar">
         <label id="nome" for="text">Nome</label>
@@ -21,14 +22,14 @@
         <label id="sobrenome" for="text">Sobrenome</label>
         <input type="text" name="sobrenome" placeholder="Digite seu sobrenome"><br/>
         <label id="idade" for="text">Idade</label>
-        <input type="text" name="idade" placeholder="Digite seu idade"><br/>
+        <input type="text" name="idade" placeholder="Digite sua idade"><br/>
 
             <input class="botao" type="submit" name="enviar" placeholder="Enviar:" onclick="msg()">
 
     </form>
     <script>
         function msg(){
-            alert("Voce enviou!")
+            alert("Voce Adcionou uma pessoa!")
         }
     </script>
     </div>
